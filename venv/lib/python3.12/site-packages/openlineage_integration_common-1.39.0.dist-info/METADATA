@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: openlineage-integration-common
+Version: 1.39.0
+Summary: OpenLineage common python library for integrations
+Author: OpenLineage
+Keywords: openlineage
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: attrs>=19.3.0
+Requires-Dist: openlineage-python==1.39.0
+Requires-Dist: openlineage_sql==1.39.0
+Requires-Dist: pyyaml>=5.3.1
+Provides-Extra: bigquery
+Requires-Dist: google-api-core>=1.26.3; extra == "bigquery"
+Requires-Dist: google-auth>=1.30.0; extra == "bigquery"
+Requires-Dist: google-cloud-bigquery<4.0.0,>=2.15.0; extra == "bigquery"
+Requires-Dist: google-cloud-core>=1.6.0; extra == "bigquery"
+Requires-Dist: google-crc32c>=1.1.2; extra == "bigquery"
+Provides-Extra: dbt
+Provides-Extra: great-expectations
+Requires-Dist: great_expectations<0.15.35,>=0.13.26; extra == "great-expectations"
+Requires-Dist: sqlalchemy<2.0.0,>=1.3.24; extra == "great-expectations"
+Provides-Extra: redshift
+Requires-Dist: boto3>=1.15.0; extra == "redshift"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Requires-Dist: mock; extra == "tests"
+Requires-Dist: pandas; extra == "tests"
+Requires-Dist: jinja2; extra == "tests"
+Requires-Dist: python-dateutil; extra == "tests"
+Requires-Dist: mypy>=0.960; extra == "tests"
+Requires-Dist: types-python-dateutil; extra == "tests"
+Requires-Dist: types-PyYAML; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: google-cloud-core>=1.6.0; extra == "dev"
+Requires-Dist: boto3>=1.15.0; extra == "dev"
+Requires-Dist: mypy>=0.960; extra == "dev"
+Requires-Dist: great_expectations<0.15.35,>=0.13.26; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: jinja2; extra == "dev"
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: types-PyYAML; extra == "dev"
+Requires-Dist: pandas; extra == "dev"
+Requires-Dist: google-api-core>=1.26.3; extra == "dev"
+Requires-Dist: sqlalchemy<2.0.0,>=1.3.24; extra == "dev"
+Requires-Dist: google-cloud-bigquery<4.0.0,>=2.15.0; extra == "dev"
+Requires-Dist: google-crc32c>=1.1.2; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: types-python-dateutil; extra == "dev"
+Requires-Dist: python-dateutil; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: google-auth>=1.30.0; extra == "dev"
+Provides-Extra: dev-no-parser
+Requires-Dist: google-cloud-core>=1.6.0; extra == "dev-no-parser"
+Requires-Dist: boto3>=1.15.0; extra == "dev-no-parser"
+Requires-Dist: mypy>=0.960; extra == "dev-no-parser"
+Requires-Dist: great_expectations<0.15.35,>=0.13.26; extra == "dev-no-parser"
+Requires-Dist: pytest-cov; extra == "dev-no-parser"
+Requires-Dist: jinja2; extra == "dev-no-parser"
+Requires-Dist: mock; extra == "dev-no-parser"
+Requires-Dist: types-PyYAML; extra == "dev-no-parser"
+Requires-Dist: pandas; extra == "dev-no-parser"
+Requires-Dist: google-api-core>=1.26.3; extra == "dev-no-parser"
+Requires-Dist: sqlalchemy<2.0.0,>=1.3.24; extra == "dev-no-parser"
+Requires-Dist: google-cloud-bigquery<4.0.0,>=2.15.0; extra == "dev-no-parser"
+Requires-Dist: google-crc32c>=1.1.2; extra == "dev-no-parser"
+Requires-Dist: pytest-mock; extra == "dev-no-parser"
+Requires-Dist: types-python-dateutil; extra == "dev-no-parser"
+Requires-Dist: python-dateutil; extra == "dev-no-parser"
+Requires-Dist: pytest; extra == "dev-no-parser"
+Requires-Dist: google-auth>=1.30.0; extra == "dev-no-parser"
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Common modules for OpenLineage integrations.
