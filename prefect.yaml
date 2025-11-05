@@ -14,4 +14,10 @@ deployments:
     entrypoint: pipeline_validado.py:main_flow
     work_pool:
       name: managed-pool
-
+      work_queue_name: default
+    runtime_environment:
+      image: prefecthq/prefect:3-python3.11
+    run:
+      command: >
+        pip install -r requirements.txt &&
+        python pipeline_validado.py
