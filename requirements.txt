@@ -18,6 +18,14 @@ apache-airflow-providers-standard==1.9.1
 apache-airflow-task-sdk==1.1.1
 apprise==1.9.5
 argcomplete==3.6.3
+
+# dependencias adicionales necesarias para el pipeline
+pandas==2.2.2
+pyarrow==17.0.0
+duckdb==1.1.1
+prefect==3.5.0
+requests==2.32.3
+
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow==1.4.0
