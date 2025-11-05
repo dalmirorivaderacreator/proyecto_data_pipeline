@@ -8,11 +8,10 @@ pull:
   - prefect.deployments.steps.git_clone:
       repository: https://github.com/dalmirorivaderacreator/proyecto_data_pipeline.git
       branch: main
-  - prefect.deployments.steps.run_shell_command:
-      command: pip install -r requirements.txt
 
 deployments:
   - name: pipeline_pro
     entrypoint: pipeline_validado.py:main_flow
     work_pool:
       name: managed-pool
+
