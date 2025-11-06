@@ -95,7 +95,7 @@ Este proyecto demuestra:
 
 ## 👨‍💻 Autor
 
-Dalmirorivaderacreator - [GitHub](https://github.com/dalmirorivaderacreator)
+dalmirorivaderacreator - [GitHub](https://github.com/dalmirorivaderacreator)
 
 ## 📄 Licencia
 
