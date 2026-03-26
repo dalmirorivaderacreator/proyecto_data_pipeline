@@ -18,7 +18,7 @@ Este proyecto demuestra un flujo completo de trabajo en Data Engineering:
 
 Este proyecto lo hice siguiendo paso a paso lo que me indicaba la IA. Fue mi primer contacto con herramientas como Prefect, Streamlit y la arquitectura Medallion, pero la realidad es que solo copiaba y pegaba. No tomé decisiones técnicas ni resolví problemas por mi cuenta.
 
-Hoy sé que un proyecto que no puedo explicar no tiene valor real para mi aprendizaje. Por eso estoy construyendo **[PEF Analytics System](https://github.com/dalmirorivaderacreator/PEF)** desde cero, escribiendo cada línea y aprendiendo realmente.
+Hoy sé que un proyecto que no puedo explicar no tiene valor real para mi aprendizaje. Por eso estoy construyendo **[PEF Analytics System](https://github.com/dalmirorivaderacreator/PEF-Analytics-System)** desde cero, escribiendo cada línea y aprendiendo realmente.
 
 👉 Si querés ver mi trabajo actual, mirá PEF.
 
@@ -92,15 +92,6 @@ streamlit run dashboard.py
 - **Streamlit**: Framework de aplicación web
 - **Plotly**: Visualizaciones interactivas
 - **PyArrow**: Manejo de archivos Parquet
-
-## 🎓 Resultados de Aprendizaje
-
-Este proyecto demuestra:
-- Desarrollo de pipelines de datos end-to-end
-- Mejores prácticas ETL con Prefect
-- Diseño y gestión de bases de datos
-- Técnicas de visualización de datos
-- Estructura de código lista para producción
 
 ## 👨‍💻 Autor
 
