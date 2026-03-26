@@ -14,6 +14,15 @@ Este proyecto demuestra un flujo completo de trabajo en Data Engineering:
 - **Almacenamiento**: Datos procesados en base de datos SQLite
 - **Visualización**: Dashboard interactivo con Streamlit y Plotly
 
+## 📌 Sobre este proyecto
+
+Este proyecto lo hice siguiendo paso a paso lo que me indicaba la IA. Fue mi primer contacto con herramientas como Prefect, Streamlit y la arquitectura Medallion, pero la realidad es que solo copiaba y pegaba. No tomé decisiones técnicas ni resolví problemas por mi cuenta.
+
+Hoy sé que un proyecto que no puedo explicar no tiene valor real para mi aprendizaje. Por eso estoy construyendo **[PEF Analytics System](https://github.com/dalmirorivaderacreator/PEF)** desde cero, escribiendo cada línea y aprendiendo realmente.
+
+👉 Si querés ver mi trabajo actual, mirá PEF.
+
+
 ## 🏗️ Arquitectura
 
 ```
