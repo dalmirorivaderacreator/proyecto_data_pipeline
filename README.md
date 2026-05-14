@@ -18,9 +18,12 @@ Este proyecto demuestra un flujo completo de trabajo en Data Engineering:
 
 Este proyecto lo hice siguiendo paso a paso lo que me indicaba la IA. Fue mi primer contacto con herramientas como Prefect, Streamlit y la arquitectura Medallion, pero la realidad es que solo copiaba y pegaba. No tomé decisiones técnicas ni resolví problemas por mi cuenta.
 
-Hoy sé que un proyecto que no puedo explicar no tiene valor real para mi aprendizaje. Por eso estoy construyendo **[PEF Analytics System](https://github.com/dalmirorivaderacreator/PEF-Analytics-System)** desde cero, escribiendo cada línea y aprendiendo realmente.
+Hoy sé que un proyecto que no puedo explicar no tiene valor real para mi aprendizaje. Por eso estoy hoy estoy construyendo las cosas diferente. Mi proyecto actual es UGCAnalitica , donde cada línea la escribo yo y cada error lo resuelvo yo.
 
-👉 Si querés ver mi trabajo actual, mirá PEF.
+👉 Te invito a conocer UGCA. https://github.com/dalmirorivaderacreator/UGCAnalitica
+
+ desde cero, escribiendo cada línea y aprendiendo realmente.
+
 
 
 ## 🏗️ Arquitectura
